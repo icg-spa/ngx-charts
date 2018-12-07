@@ -1,5 +1,5 @@
 {
-  "name": "@swimlane/ngx-charts",
+  "name": "@davidq8/ngx-charts",
   "version": "7.4.0",
   "description": "Declarative Charting Framework for Angular2 and beyond!",
   "main": "release/index.js",
@@ -43,7 +43,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/swimlane/ngx-charts.git"
+    "url": "git+https://github.com/davidq8/ngx-charts.git"
   },
   "keywords": [
     "angular",
@@ -67,9 +67,9 @@
   "license": "MIT",
   "files": ["release"],
   "bugs": {
-    "url": "https://github.com/swimlane/ngx-charts/issues"
+    "url": "https://github.com/davidq8/ngx-charts/issues"
   },
-  "homepage": "https://github.com/swimlane/ngx-charts#readme",
+  "homepage": "https://github.com/davidq8/ngx-charts#readme",
   "peerDependencies": {
     "@angular/common": "5.x",
     "@angular/core": "5.x",
