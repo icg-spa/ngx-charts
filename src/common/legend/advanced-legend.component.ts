@@ -23,7 +23,7 @@ import { formatLabel } from '../label.helper';
         [countTo]="roundedTotal">
       </div>
       <div *ngIf="!animations">
-        {{roundedTotal}}
+        {{valueFormatting?valueFormatting(roundedTotal):roundedTotal}}
       </div>
       <div class="total-label">
         {{label}}
