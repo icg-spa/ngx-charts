@@ -18,9 +18,8 @@ import { formatLabel } from '../label.helper';
       [style.width.px]="width">
       <div
         *ngIf="animations"
-        class="total-value"
-        ngx-charts-count-up
-        [countTo]="roundedTotal">
+        class="total-value">
+        {{valueFormatting?valueFormatting(roundedTotal):roundedTotal}}
       </div>
       <div *ngIf="!animations">
         {{valueFormatting?valueFormatting(roundedTotal):roundedTotal}}

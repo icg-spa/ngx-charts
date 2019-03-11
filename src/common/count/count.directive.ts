@@ -83,7 +83,7 @@ export class CountUpDirective implements OnDestroy {
     const valueFormatting = this.valueFormatting ||
       (data => `${this.countPrefix}${data.value.toLocaleString()}${this.countSuffix}`);
 
-    const callback = ({ value, progress, finished }) => {
+    const callback = ({ value, progress, finished }) => {      
       this.value = valueFormatting({value});
       this.cd.markForCheck();
 
